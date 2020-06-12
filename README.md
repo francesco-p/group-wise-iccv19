@@ -15,10 +15,9 @@ Here's a [colab](https://colab.research.google.com/drive/1Qu9OeyABD3iV-4u1K76XmO
 
 The best way to run in three steps is with Docker.
 
-1. `git clone https://github.com/francesco-p/group-wise-iccv19.git`
-2. `cd group-wise-iccv19`
-3. `sudo docker run --rm --gpus all -it -v $(pwd):/current ufoym/deepo bash`
-4. `python main.py`
+1. `git clone https://github.com/francesco-p/group-wise-iccv19.git && cd group-wise-iccv19`
+2. `sudo docker run --rm --gpus all -it -v $(pwd):/current ufoym/deepo bash`
+3. `cd /current && python main.py`
 
 You don't have Docker? There I produced a `requiremets.txt` but I didn't test it.
 
